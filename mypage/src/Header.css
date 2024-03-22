@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    grid-template-columns:1fr 1fr; /* 1つの列のみの横向きのグリッド */
+    height: 100%;
+    width: 100%;
+    align-items: center; /* 縦方向（垂直）の中央揃え */  
+
+}
+.buttoms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 1つの列のみの横向きのグリッド */
+    height: 100%; /* 親要素の高さを100%に設定 */
+}
+
+.header button{
+    height: 90%;
+    margin: 5px;
+
+}

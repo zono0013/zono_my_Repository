@@ -1,0 +1,88 @@
+.Body {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.leftbody {
+    height: 100%; /* 親要素の高さを100%に設定 */
+    width: 100%;
+    display: flex; /* Flexbox を使用 */
+    flex-direction: column; /* 子要素を縦方向に配置 */
+    justify-content: center; /* 横方向（水平）の中央揃え */
+    align-items: center; /* 縦方向（垂直）の中央揃え */  
+    margin: auto;  
+}
+
+
+.rightbody {
+    margin: 5%;
+}
+
+.name {
+    background-color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: calc(10px + 3vmin);;
+    margin-bottom: 7px;
+}
+
+.img {
+    width: 80%;
+    display: flex;
+    justify-content: center; /* 横方向（水平）の中央揃え */
+    align-items: center; /* 縦方向（垂直）の中央揃え */
+}
+
+.img_in {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向（水平）の中央揃え */
+    align-items: center; /* 縦方向（垂直）の中央揃え */
+    /* background-color: #fff; */
+}
+
+.in {
+    height: 100%;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 740px) {
+    .name {
+        background-color: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: calc(10px + 2vmin);;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .Body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 1fr;
+    }
+
+    .leftbody {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr; /* 2列のグリッド */
+        margin: auto;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .name {
+        grid-column: 2; /* グリッドの2列目に配置 */
+        grid-row: 1;
+        background-color: rgb(255, 255, 255);
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: calc(10px + 2vmin);
+    }
+
+    .img {
+        grid-column: 1; /* グリッドの1列目に配置 */
+        grid-row: 1;
+    }
+}

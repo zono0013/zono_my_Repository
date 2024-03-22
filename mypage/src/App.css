@@ -1,0 +1,24 @@
+.App {
+  /* text-align: center; */
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* ヘッダー、中央のコンテンツ、フッターの順に設定 */
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-inSide {
+  background-color: #8a8d94;
+  width: 100%;
+  height: 100%;
+}
+
+/* 上の行のスタイル */
+.App-header,
+.App-footer {
+  height: 100%;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
