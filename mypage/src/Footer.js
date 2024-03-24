@@ -1,8 +1,14 @@
 import React from 'react'
+import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <p>
+        mail : is0665ri@ed.ritsumei.ac.jp
+      </p>
+
+    </div>
   )
 }
 

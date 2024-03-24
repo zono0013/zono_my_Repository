@@ -1,4 +1,4 @@
-.Body {
+.About {
     height: 100%;
     display: grid;
     grid-template-columns: 40% 1fr;
@@ -23,12 +23,12 @@
     background-color: rgb(255, 255, 255);
     padding-left: 5%;
     padding-right: 5%;
-    font-size: calc(10px + 3vmin);;
+    font-size: calc(10px + 6vmin);;
     margin-bottom: 7px;
 }
 
 .img {
-    width: 80%;
+    width: 95%;
     display: flex;
     justify-content: center; /* 横方向（水平）の中央揃え */
     align-items: center; /* 縦方向（垂直）の中央揃え */
@@ -45,19 +45,19 @@
 .in {
     height: 100%;
     background-color: #fff;
+    padding: 1%;
+    font-size: calc(10px + 1.5vmin);
 }
 
 @media screen and (max-width: 740px) {
     .name {
         background-color: rgb(255, 255, 255);
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: calc(10px + 2vmin);;
+        font-size: calc(10px + 4vmin);;
     }
 }
 
 @media screen and (max-width: 613px) {
-    .Body {
+    .About {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 40% 1fr;
@@ -76,9 +76,7 @@
         grid-column: 2; /* グリッドの2列目に配置 */
         grid-row: 1;
         background-color: rgb(255, 255, 255);
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: calc(10px + 2vmin);
+        font-size: calc(10px + 6vmin);
     }
 
     .img {

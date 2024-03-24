@@ -1,6 +1,7 @@
 .header {
     display: grid;
     grid-template-columns:1fr 1fr; /* 1つの列のみの横向きのグリッド */
+    grid-template-rows: 1fr;
     height: 100%;
     width: 100%;
     align-items: center; /* 縦方向（垂直）の中央揃え */  
@@ -9,11 +10,26 @@
 .buttoms {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; /* 1つの列のみの横向きのグリッド */
-    height: 100%; /* 親要素の高さを100%に設定 */
+    height: 90%; /* 親要素の高さを100%に設定 */
+    margin: 5px;
+    background-color: rgb(94, 116, 135);
 }
 
 .header button{
-    height: 90%;
-    margin: 5px;
+    height: 95%;
+    margin: 3px;
+}
 
+@media screen and (max-width: 613px) {
+    .header {
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: 1fr 1fr;
+            /* 1つの列のみの横向きのグリッド */
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            /* 縦方向（垂直）の中央揃え */
+    
+        }
 }

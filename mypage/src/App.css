@@ -9,9 +9,12 @@
 }
 
 .App-inSide {
+  display: flex;
   background-color: #8a8d94;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* 上の行のスタイル */
