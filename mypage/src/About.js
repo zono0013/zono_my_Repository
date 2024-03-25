@@ -28,10 +28,13 @@ const About = () => {
                         所属団体：RCC(立命館コンピュータクラブ)<br></br>
                         　　　　　RAC(立命館陸上サークル)<br></br>
                         <br></br>
-                        趣味：<br></br>
+                        好きな事・物：ラーメン<br></br>
+                        　　　　　　　MMORPG<br></br>
+                        　　　　　　　新しいことをする事<br></br>
                         <br></br>
-                        
-
+                        趣味：ランニング<br></br>
+                        　　　コーディング<br></br>
+                        　　　偶にゲーム<br></br>
                     </pre>
                 </div>
             </div>
