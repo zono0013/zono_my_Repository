@@ -79,6 +79,7 @@
     }
 
     .name {
+        height: calc(12px + 12vmin);
         grid-column: 2; /* グリッドの2列目に配置 */
         grid-row: 1;
         background-color: rgb(255, 255, 255);

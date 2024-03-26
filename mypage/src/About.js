@@ -15,7 +15,7 @@ const About = () => {
                     </ruby>
                 </div>
                 <div className='img'>
-                    <img className='img_in' src="https://th.bing.com/th/id/OIP.SPCOU0xr5I7bwfk1pn6R2AHaHa?rs=1&pid=ImgDetMain" alt="imgの代替テキスト" />
+                    <img className='img_in' src="https://media.discordapp.net/attachments/1097827372184649739/1221638989690437764/IMG_3303.jpg?ex=66134ef8&is=6600d9f8&hm=22469c47cb467c6959a5ed725d0aae35af180861b7dc9762cb6c511866089cd7&=&format=webp&width=655&height=655" alt="imgの代替テキスト" />
                 </div>
             </div>
             <div className='rightbody'>

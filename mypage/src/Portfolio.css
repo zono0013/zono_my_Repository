@@ -1,0 +1,28 @@
+.works_flam{
+    margin: 1%;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    /* ミニマムで2列、マックスで3列 */
+    grid-gap: 20px;
+    /* グリッド間のスペース */
+}
+
+.element {
+    border: 1px solid #000000;
+    /* 要素の境界線 */
+    padding: 10px;
+    /* 要素の内側の余白 */
+    background-color: #fff;
+}
+
+.imgs img {
+    width: 100%;
+    /* 画像の幅を親要素に合わせる */
+    height: auto;
+    /* 高さは自動調整 */
+    object-fit: cover;
+    /* 画像がはみ出さないように調整 */
+}
